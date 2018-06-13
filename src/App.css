@@ -1,0 +1,26 @@
+.wrap {
+  max-width: 400px;
+  margin: 20px auto;
+}
+.wrap * {
+  box-sizing: border-box;
+}
+.animal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.animal-hidden {
+  display: none;
+}
+.animal__done {
+  cursor: pointer;
+}
+.animal__text {
+  flex: 1 0 0%;
+  margin: 10px;
+}
+.animal__delete {
+  color: #d60000;
+  cursor: pointer;
+}

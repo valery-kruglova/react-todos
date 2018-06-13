@@ -1,0 +1,13 @@
+.filter {
+  margin: 10px 0;
+}
+.filter__btn {
+  margin-right: 26px;
+  background: none;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.filter__btn:last-child {
+  margin-right: 0;
+}
